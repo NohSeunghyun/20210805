@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+* {
+	padding: 0px; /*안쪽 여백*/
+	margin: 0px; /*바깥쪽 여백*/
+}
+header { /*header.jsp부분*/
+	height: 80px;
+	line-height: 80px;/*"쇼핑몰 회원관리 ver 1.0"이 헤더 맨위에 붙는것을 띄우기위해 문자 여백을 줌*/
+	text-align: center; /*"쇼핑몰 회원관리 ver 1.0"가운데 정렬*/
+	background-color: red;
+}
+nav { /*header.jsp부분*/
+	height: 30px;
+	line-height: 30px;/*목차 부분이 nav 맨위에 붙는것을 띄우기위해 문자 여백을 줌*/
+	background-color: black;
+}
+nav a { /*header.jsp부분*/
+	text-decoration: none; /*링크 밑줄 없애기*/
+	color: white;
+	margin-left: 30px; /*문자 왼쪽 여백*/ 
+}
+footer { /*footer.jep부분*/
+	height: 40px;
+	line-height: 40px; /*저작권 문구가 푸터부분의 맨위에 붙는것을 띄우기위해 문자 여백을 줌*/
+	text-align: center; /*저작권 문구 가운데 정렬*/
+	background-color: red;
+}
+section { /*index.jsp부분*/
+	height: 400px;
+	padding: 20px;
+	background-color: #c0c0c0;
+}
+section div { /*index.jsp부분*/
+	text-align: center; /*"쇼핑몰 회원관리 프로그램" 가운데정렬*/
+	margin: 20px; /*문자 위 아래 여백*/
+}
+section ol { /*index.jsp부분*/
+	margin-left: 20px; /*ol부분문자와 위 문자열 일직선상 줄맞춤*/
+}
+tr td a { /*select.jsp부분*/
+	text-decoration: none; /*링크 밑줄 없애기*/
+	color: white;
+}
+th{
+	border: 1px solid black;
+}
+td {
+	border: 1px solid black;
+}
